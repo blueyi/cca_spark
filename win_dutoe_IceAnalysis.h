@@ -9,11 +9,11 @@ extern "C" {
 #endif
 /*
  * Class:     win_dutoe_IceAnalysis
- * Method:    helloWorld
- * Signature: ()V
+ * Method:    libIceAnalysis
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
-JNIEXPORT void JNICALL Java_win_dutoe_IceAnalysis_helloWorld
-  (JNIEnv *, jobject);
+JNIEXPORT jstring JNICALL Java_win_dutoe_IceAnalysis_libIceAnalysis
+  (JNIEnv *, jobject, jstring);
 
 #ifdef __cplusplus
 }
